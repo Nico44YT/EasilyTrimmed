@@ -1,0 +1,9 @@
+{
+  "asset_name": "echo_shard",
+  "description": {
+    "color": "#0F0FFF",
+    "translate": "trim_material.test_mod.echo_shard"
+  },
+  "ingredient": "minecraft:echo_shard",
+  "item_model_index": 0.1
+}

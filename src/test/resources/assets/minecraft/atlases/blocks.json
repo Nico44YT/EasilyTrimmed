@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "echo_shard": "test_mod:trims/color_palettes/echo_shard"
+      },
+      "textures": [
+        "trims/items/leggings_trim",
+        "trims/items/chestplate_trim",
+        "trims/items/helmet_trim",
+        "trims/items/boots_trim"
+      ]
+    }
+  ]
+}
