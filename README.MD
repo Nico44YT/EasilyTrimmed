@@ -18,6 +18,8 @@ dependencies {
 
 View the test mod for an concrete example.
 
+Add a new pallet texture to ``assets/<mod_id>/textures/trims/color_palettes/``
+
 Create a new class called `ModTrimMaterials`
 
 ```java
