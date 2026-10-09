@@ -52,7 +52,7 @@ public abstract class ItemRendererMixin {
             int seed,
             Operation<BakedModel> original
     ) {
-        if (!stack.isIn(ItemTags.TRIMMABLE_ARMOR))
+        if (!stack.isIn(ItemTags.TRIMMABLE_ARMOR) || world == null)
             return original.call(overrideList, model, stack, world, entity, seed);
 
         Optional<ArmorTrim> optional = ArmorTrim.getTrim(world.getRegistryManager(), stack);
